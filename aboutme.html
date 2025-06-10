@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About Me</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-image: url('download.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: Arial, sans-serif;
+    }
+    header, footer {
+      background-color: #87b6cd;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 0px;   /* Added vertical spacing */
+      margin-bottom: 30px;
+    }
+    main {
+      padding: 20px;
+    }
+    .container {
+      max-width: 1200px;
+      width: 100%;
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 40px auto; /* Center horizontally and add vertical spacing */
+    }
+
+    .box {
+      background: transparent;
+      border: 2px solid none;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      padding: 30px;
+      flex: 1 1 300px; /* Grow/shrink, min width 300px */
+      max-width: 350px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    .box h3 {
+      margin-top: 0;
+      color: #00556a;
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+
+    .box p {
+      font-size: 18px;
+      color: #333;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 1000px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+      .box {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1><b>About Me</b></h1>
+</header>
+
+<div class="container">
+  <section class="box">
+    <h3 style="color: #005254;"><b>Book</b></h3>
+    <img src="book.jpg" alt="book" width="300" style="border-radius: 100px;">
+    <p style="color: #005254;"><b>I have been reading and collecting books since I was a child. I like physical books, but they are expensive nowadays, so I read ebooks for some novels. My favorite category is fiction, and I cherish books because of their scent, which I am in love with. My current favorite novel is Butterfly by Anna Lee.</b></p>
+  </section>
+
+  <section class="box">
+    <h3 style="color: #005254;"><b>Cats</b></h3>
+    <img src="kk.jpg" alt="kk" width="250" style="border-radius: 100px;">
+    <p style="color: #005254;"><b>I feared cats as a kid, but after finishing school, I convinced my father to let me adopt them. So we did! We rescued two cats, JK and Kudut. Unfortunately, my eldest cat, JK, passed away before passing his first year in our house. We then got another cat, Kulop, to be Kudut's buddy. And they are my most beloved things in the world. 𖹭 </b></p>
+  </section>
+
+  <section class="box">
+    <h3 style="color: #005254;"><b>Dessert</b></h3>
+    <img src="dessert.jpg" alt="dessert" width="250" style="border-radius: 100px;">
+    <p style="color: #005254;"><b>I enjoy eating, especially for dessert! I love trying new, unique desserts. I like playing around and have learned how to prepare several types of comfort food.</b></p>
+  </section>
+</div>
+
+<footer>
+  <p>© NUR ATHIRAH MOHD RAFFEE COPYRIGHT UNIVERSITI TEKNOLOGI MARA 2025</p>
+</footer>
+
+</body>
+</html>

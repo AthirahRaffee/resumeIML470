@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-image: url('download.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: Arial, sans-serif;
+    }
+    header, footer {
+      background-color: #87b6cd;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 0px;   /* Added vertical spacing */
+      margin-bottom: 30px;
+    }
+    main {
+      padding: 20px;
+    }
+    form {
+      max-width: 800px;
+      margin: 40px auto;
+      background: pale yellow;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    label {
+      display: block;
+      margin-top: 20px;
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 18px;
+      font-size: 18px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-sizing: border-box;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    button {
+      margin-top: 30px;
+      width: 100%;
+      padding: 20px;
+      background-color: #62a7ae;
+      color: white;
+      font-size: 22px;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #70c4cc;
+    }
+
+    @media (max-width: 600px) {
+      form {
+        padding: 20px;
+      }
+
+      label, input, textarea, button {
+        font-size: 16px;
+      }
+
+      header h2 {
+        font-size: 1.25em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h2><b>Contact Me</b></h2>
+</header>
+
+<form action="#" method="post">
+  <label for="full-name"style="color: #005254;">Full Name</label>
+  <input type="text" id="full-name" name="full-name" required />
+
+  <label for="email"style="color: #005254;">Email</label>
+  <input type="email" id="email" name="email" required />
+
+  <label for="phone"style="color: #005254;">Phone Number</label>
+  <input type="tel" id="phone" name="phone" />
+
+  <label for="subject"style="color: #005254;">Subject</label>
+  <input type="text" id="subject" name="subject" required />
+
+  <label for="message"style="color: #005254;">Your Message</label>
+  <textarea id="message" name="message" rows="5" required></textarea>
+
+  <button type="submit">Send Message</button>
+</form>
+
+<footer>
+  <p>© NUR ATHIRAH MOHD RAFFEE COPYRIGHT UNIVERSITI TEKNOLOGI MARA 2025</p>
+</footer>
+
+</body>
+</html>
